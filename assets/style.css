@@ -1,0 +1,35 @@
+.welcome{
+	text-align: center;
+}
+.what-we-do{
+	text-align: center;
+
+}
+.find{
+	color: blue;
+}
+.part{
+	color: blue;
+}
+.end{
+	color: orange;
+}
+.dec{
+	color: gray;
+}
+.find-us{
+	background-color: gray;
+}
+.come{
+	color: blue;
+}
+.smart{
+	color: grey;
+}
+.fundi{
+	color:orange;
+}
+body{
+	/*background-image: url("images/house.jpg");*/
+}
+
