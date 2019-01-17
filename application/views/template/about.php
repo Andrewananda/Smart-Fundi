@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="/assets/style.css">
+		<link rel="stylesheet" href="<?php echo base_url('assets/style.css'); ?>">
 	</head>
 	<body>
 

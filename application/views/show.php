@@ -7,23 +7,7 @@
 </head>
 	<body>
 <!--		navigation bar-->
-			<nav class="navbar navbar-inverse">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<a href="#"><img src="./assets/images/build.jpg" alt="icon" height="50px" width="60px"></a>
-					</div>
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#patners">Partners</a></li>
-						<li><a href="#us">Find Us</a></li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#"><span class="glyphicon glyphicon-book">Make a quote</span></a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-					</ul>
-				</div>
-			</nav>
+			<?php include 'template/header.php'; ?>
 <!--			closing navigation bar-->
 <!--			container to hold app frame-->
 				<div class="container-fluid">
@@ -38,7 +22,7 @@
 						<div class="jumbotron">
 						<div class="row">
 							<div class="col-md-4">
-								<a href="<?php echo base_url('index.php/Show/create/fundi-module/quote.php');?>"><h3>Construct</h3>
+								<a href="<?php echo base_url('index.php/show/form_create')?>"><h3>Construct</h3>
 								<img src="./assets/images/const.jpeg" alt="constract" class="img img-rounded">
 								<p>The core aim of Smart fundi is to help you <em>CONSTRUCT</em> your ideal home with our trusted
 								and experienced constructors in our teams</p>

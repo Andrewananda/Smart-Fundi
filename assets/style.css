@@ -32,4 +32,22 @@
 body{
 	/*background-image: url("images/house.jpg");*/
 }
+.head{
+	padding: initial;
+}
+.form_create{
+	text-align: center;
+	padding-top: 0px;
+	background-repeat: no-repeat;
+	background-image: url("images/constructors.jpg");
+	font-family: fantasy;
+	font-max-size: large;
+}
+#fom{
+	padding-top: 200px;
+	color: #5a0099;
+	font-size: large;
+}
+
+
 
