@@ -30,7 +30,7 @@
 
 							</div>
 							<div class="col-md-4">
-								<a href="fundi.php"><h3>Create Employment</h3>
+								<a href="<?php echo base_url('index.php/show/form_fundi');?>"><h3>Create Employment</h3>
 								<img src="./assets/images/employ.jpeg" alt="employ" class="img img-rounded">
 								<p>The smart fundi app also helps you as a <em>FUNDI</em> to find jobs as easy as possible by simply
 								signing in to our system</p>

@@ -4,6 +4,7 @@ class Show extends CI_Controller{
 	{
 		parent::__construct();
 		$this->load->model('user_model');
+		$this->load->model('fundi_model');
 		$this->load->helper('url');
 	}
 
@@ -28,6 +29,25 @@ class Show extends CI_Controller{
 			$this->user_model->create_people();
 			$this->load->view('success');
 		}
+	}
+	public function form_fundi(){
+		$this->load->helper('form');
+		$this->load->library('form_validation');
+
+		$this->form_validation->set_rules('fundi_name','Name','required');
+		$this->form_validation->set_rules('mail','Email','required');
+		$this->form_validation->set_rules('phone','Phone','required');
+		$this->form_validation->set_rules('id','Id','required');
+		$this->form_validation->set_rules('textarea','Textarea','required');
+
+		if ($this->form_validation->run() === FALSE){
+			$this->load->view('fundi');
+		}
+		else{
+			$this->fundi_model->fundi_create();
+			$this->load->view('success');
+		}
+
 	}
 
 

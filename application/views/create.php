@@ -5,18 +5,19 @@
 </head>
 	<body class="form_create">
 	<?php include 'template/header.php'; ?>
+	<h2></h2>
 
 	<div class="form" id="fom">
 		<?php echo validation_errors(); ?>
 		<?php echo form_open('show/form_create'); ?>
 		<label for="name">Name</label>
-		<input type="text" name="name"><br>
+		<input type="text" name="name" placeholder="Enter Your Name"><br>
 		<label for="email">Email</label>
-		<input type="email" name="mail"><br>
+		<input type="email" name="mail" placeholder="Enter Your Email"><br>
 		<label for="contact">Phone</label>
-		<input type="text" name="contact"><br>
+		<input type="text" name="contact" placeholder="Enter Your Phone Number"><br>
 		<label for="budget">Budget</label>
-		<input type="text" name="mybudget"><br>
+		<input type="text" name="mybudget" placeholder="Enter Your Budget"><br>
 		<button type="submit" name="submit" class="btn btn-info">Submit</button>
 
 		</form>

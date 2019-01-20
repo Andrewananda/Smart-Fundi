@@ -12,7 +12,7 @@ class User_model extends CI_Model{
 			'budget' => $this->input->post('mybudget')
 
 		);
-		       $this->db->insert('construct',$data);
+		     return  $this->db->insert('construct',$data);
 	}
 
 
