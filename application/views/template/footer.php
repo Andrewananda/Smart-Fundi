@@ -15,15 +15,14 @@
 
 				<div class="col-md-4">
 					<h3>Locate us</h3>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8197862135635!2d36.82478251404295!3d-1.2818924359812218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f112a5b0ad4dd%3A0x39db923729dbc678!2sCity+Wall+hotel!5e0!3m2!1sen!2ske!4v1538420308836"
-							width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.170996597632!2d36.7835052!3d-1.299132!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a2aba783a0f2585!2sMorning+Side+Office+Park%2C+Ngong+Rd%2C+Nairobi%2C+Nairobi+County%2C+Kenya!5e0!3m2!1sen!2ske!4v1548670193454" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 				</div>
 				<div class="col-md-4">
 					<h3>Our offices</h3>
 					<p>Our offices are located <br>
-						<i>off thika road
-							along USIU </i></p>
+						<i>along Ngong road
+							 </i></p>
 
 				</div>
 
