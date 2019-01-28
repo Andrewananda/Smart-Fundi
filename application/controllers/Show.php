@@ -1,4 +1,6 @@
 <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
 class Show extends CI_Controller{
 	public function __construct()
 	{
@@ -6,6 +8,7 @@ class Show extends CI_Controller{
 		$this->load->model('user_model');
 		$this->load->model('fundi_model');
 		$this->load->helper('url');
+		$this->load->library('session');
 	}
 
 	public function view(){
@@ -26,8 +29,11 @@ class Show extends CI_Controller{
 			$this->load->view('create');
 		}
 		else{
+
 			$this->user_model->create_people();
-			$this->load->view('success');
+			$this->load->view('create');
+
+
 		}
 	}
 	public function form_fundi(){
@@ -45,7 +51,9 @@ class Show extends CI_Controller{
 		}
 		else{
 			$this->fundi_model->fundi_create();
+			echo 'Added Sucessfully';
 			$this->load->view('success');
+
 		}
 
 	}
