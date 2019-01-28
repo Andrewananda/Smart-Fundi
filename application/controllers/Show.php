@@ -31,7 +31,10 @@ class Show extends CI_Controller{
 		else{
 
 			$this->user_model->create_people();
+			?><success class="success"> Added successfully</success> <?;
 			$this->load->view('create');
+
+
 
 
 		}
@@ -51,8 +54,8 @@ class Show extends CI_Controller{
 		}
 		else{
 			$this->fundi_model->fundi_create();
-			echo 'Added Sucessfully';
-			$this->load->view('success');
+			?><success class="success"> Added successfully</success> <?;
+			$this->load->view('fundi');
 
 		}
 

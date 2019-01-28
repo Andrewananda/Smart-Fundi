@@ -51,6 +51,10 @@ body{
 .client{
 	color: yellow;
 }
+.success{
+	background-color: green;
+	color: white;
+}
 
 
 
