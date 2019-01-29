@@ -29,13 +29,17 @@ class Show extends CI_Controller{
 			$this->load->view('create');
 		}
 		else{
-
+			$user_name = $_POST['name'];
+			$this->session->set_userdata('loggedin_user', $user_name);
 			$this->user_model->create_people();
 			?><success class="success"> Added successfully</success> <?;
+			if (isset($_SESSION['loggedin_user'])){
+				//echo $user_name;
+			}
+			else{
+				echo 'Sorry you are not logged in';
+			}
 			$this->load->view('create');
-
-
-
 
 		}
 	}
