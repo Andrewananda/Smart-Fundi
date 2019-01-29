@@ -15,7 +15,7 @@
 <!--						<i>Find trusted contractors for your ideal home </i>-->
 <!--					</h4>-->
 					<div class="container-fluid">
-						<img src="./assets/images/constr.jpg" alt="home" width="1500px" height="600px">
+						<img src="./assets/images/constr.jpg" alt="home" style="margin: 0 auto" width="1600px" height="600px">
 					</div>
 					<div class="what-we-do">
 						<h3><span class="part">What</span> we <span class="end">do!</span></h3>
@@ -24,7 +24,7 @@
 							<div class="col-md-4">
 								<a href="<?php echo base_url('index.php/show/form_create')?>"><h3>Construct</h3>
 								<img src="./assets/images/const.jpeg" alt="constract" class="img img-rounded">
-								<p>The core aim of Smart fundi is to help you <em>CONSTRUCT</em> your ideal home with our trusted
+								<p>The core adivim of Smart fundi is to help you <em>CONSTRUCT</em> your ideal home with our trusted
 								and experienced constructors in our teams</p>
 								</a>
 
