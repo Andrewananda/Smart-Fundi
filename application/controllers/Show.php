@@ -64,6 +64,18 @@ class Show extends CI_Controller{
 		}
 
 	}
+	public function user_data($id){
+		return $this->user_model->get_people($id);
+		$username = $_POST['name'];
+		$this->session->userdata($username,$id);
+		if (isset($_SESSION[$username])){
+			echo $username . $id;
+		}else{
+			echo 'Does Not Exist';
+		}
+
+	}
+
 
 
 }

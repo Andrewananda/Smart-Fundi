@@ -55,6 +55,12 @@ body{
 	background-color: green;
 	color: white;
 }
+.image{
+	background-image: url("images/constr.jpg");
+	height: 600px;
+	background-repeat: no-repeat;
+}
+
 
 
 

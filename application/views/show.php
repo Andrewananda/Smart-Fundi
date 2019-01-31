@@ -14,8 +14,7 @@
 <!--					<h4 class="welcome"><span class="come">Welcome</span> to <span class="smart">Smart</span> <span class="fundi">Fundi</span> </br>-->
 <!--						<i>Find trusted contractors for your ideal home </i>-->
 <!--					</h4>-->
-					<div class="container-fluid">
-						<img src="./assets/images/constr.jpg" alt="home" style="margin: 0 auto" width="1600px" height="600px">
+					<div class="jumbotron image">
 					</div>
 					<div class="what-we-do">
 						<h3><span class="part">What</span> we <span class="end">do!</span></h3>
