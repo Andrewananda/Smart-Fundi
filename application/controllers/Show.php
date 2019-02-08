@@ -9,6 +9,7 @@ class Show extends CI_Controller{
 		$this->load->model('fundi_model');
 		$this->load->helper('url');
 		$this->load->library('session');
+		$this->load->driver('cache');
 	}
 
 	public function view(){
@@ -59,7 +60,12 @@ class Show extends CI_Controller{
 		else{
 			$this->fundi_model->fundi_create();
 			?><success class="success"> Added successfully</success> <?;
-			$this->load->view('fundi');
+			$user = $_POST['name'];
+			if ($this->user_exist($user)){
+				echo 'user already exist';
+			}else {
+				$this->load->view('fundi');
+			}
 
 		}
 
@@ -75,7 +81,6 @@ class Show extends CI_Controller{
 		}
 
 	}
-
 
 
 }

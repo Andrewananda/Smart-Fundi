@@ -22,7 +22,7 @@
 						<div class="row">
 							<div class="col-md-4">
 								<a href="<?php echo base_url('index.php/show/form_create')?>"><h3>Construct</h3>
-								<img src="./assets/images/const.jpeg" alt="constract" class="img img-rounded">
+								<img src="./assets/images/const.jpeg" alt="construct" class="img img-rounded">
 								<p>The core adivim of Smart fundi is to help you <em>CONSTRUCT</em> your ideal home with our trusted
 								and experienced constructors in our teams</p>
 								</a>

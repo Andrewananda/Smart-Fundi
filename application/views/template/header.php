@@ -13,7 +13,7 @@
 					<a href="#"><img src="<?php echo base_url('assets/images/build.jpg'); ?>" alt="icon" height="50px" width="60px"></a>
 				</div>
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
+					<li class="active"><a href="<?php echo base_url("")?>">Home</a></li>
 					<li><a href="#patners">Partners</a></li>
 					<li><a href="#us">Find Us</a></li>
 				</ul>

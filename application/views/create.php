@@ -22,7 +22,6 @@
 
 		</form>
 	</div>
-	<?php include 'template/footer.php'?>
 
 
 	</body>
